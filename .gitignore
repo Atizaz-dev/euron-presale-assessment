@@ -7,7 +7,6 @@ celerybeat-schedule.db
 celerybeat-schedule
 celery.log
 dump.rdb
-tests/
 
 test.db
 database.db
