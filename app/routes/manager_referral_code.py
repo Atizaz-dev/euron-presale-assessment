@@ -4,7 +4,7 @@ from starlette.responses import JSONResponse
 from app.database import SessionDepends
 from app.db_helpers import get_ref_code
 from app.schemas import ReferralSchema
-from services import create_ref_code_service
+from app.services import create_ref_code_service
 
 router = APIRouter(
     prefix="/api/referral_data/manager",
