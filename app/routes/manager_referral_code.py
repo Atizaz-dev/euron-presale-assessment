@@ -21,7 +21,7 @@ def get_manager_ref_code(address: str, session: SessionDepends):
 
 
 @router.post(
-    path="/",
+    path="",
     response_model=ReferralSchema
 )
 def create_manager_ref_code(data: ReferralSchema, session: SessionDepends):
