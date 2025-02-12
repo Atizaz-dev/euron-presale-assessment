@@ -21,7 +21,7 @@ def get_referral_code(address: str, session: SessionDepends):
 
 
 @router.post(
-    path="/",
+    path="",
     response_model=ReferralSchema
 )
 def create_referral_code(data: ReferralSchema, session: SessionDepends):
